@@ -1,0 +1,42 @@
+@media (min-width: 769px) and (max-width: 1023px) {
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 30px;
+    text-align: center;
+  }
+
+  .profile {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .skills-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill-box {
+    flex: 0 0 45%;
+  }
+
+  .projects-row {
+    flex-wrap: wrap;
+  }
+
+  .project {
+    flex: 0 0 48%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}

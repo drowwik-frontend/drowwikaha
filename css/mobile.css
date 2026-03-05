@@ -1,0 +1,97 @@
+
+/* =========================
+   MOBILE (до 768px)
+   Гарантовано все зверху вниз
+========================= */
+@media screen and (max-width: 768px) {
+
+  /* Header */
+  .header {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+    padding: 15px !important;
+    gap: 10px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column !important;
+    gap: 8px;
+  }
+
+  /* Container */
+  .container {
+    padding: 20px 15px !important;
+  }
+
+  /* Profile */
+  .profile {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .photo {
+    margin: 0 auto;
+  }
+
+  /* Hard + Soft skills (були в .row) */
+  .row {
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
+  /* Skills вертикально */
+  .skills-row {
+    display: flex;
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .skill-box {
+    width: 100% !important;
+  }
+
+  /* Projects */
+  .projects-row {
+    display: flex;
+    flex-direction: column !important;
+    gap: 15px;
+  }
+
+  .project {
+    width: 100% !important;
+  }
+
+  /* Contact */
+  .contact-form {
+    max-width: 100% !important;
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    display: flex;
+    flex-direction: column !important;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column !important;
+    gap: 8px;
+  }
+}
+
