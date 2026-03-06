@@ -217,3 +217,19 @@ height:3px;
 background:black;
 display:block;
 }
+.cv-btn{
+display:inline-block;
+margin-top:15px;
+padding:12px 24px;
+border-radius:999px;
+background:linear-gradient(90deg,#38bdf8,#22c55e);
+color:#020617;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+}
+
+.cv-btn:hover{
+transform:translateY(-2px);
+box-shadow:0 5px 15px rgba(56,189,248,0.4);
+}
